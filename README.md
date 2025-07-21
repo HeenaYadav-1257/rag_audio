@@ -1,5 +1,5 @@
 # Audio RAG System: Retrieval-Augmented Generation for Auditory Data
-
+[ps. -  mistral model (mistral-7b-instruct-v0.1.Q4_0.gguf) is to be downloaded seperately in project directory in folder named models]
 ## Project Overview
 
 This project implements an Audio Retrieval-Augmented Generation (RAG) system designed to augment Large Language Models (LLMs) with contextual information derived from audio files. The system transcribes audio, embeds the text, retrieves relevant segments based on user queries, and then leverages a local LLM (Mistral-7B) to provide accurate and contextually informed answers. This is crucial for making unstructured audio content queryable and reducing LLM reliance on parametric knowledge alone.
